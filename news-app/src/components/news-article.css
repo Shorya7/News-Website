@@ -1,0 +1,30 @@
+.news-title {
+    margin: 0 25px 3px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  
+  
+  .news-desc {
+    margin: 15px 25px;
+    line-height: 25px;
+    font-size: 1rem;
+  }
+  
+  
+  .news-published {
+    margin:25px;
+    margin-top: 10px;
+    color: rgb(122, 122, 122);
+  }
+  .news-img {
+    max-width: 350px;
+    height: auto;
+    margin:  22px 22px 5px;
+    border-radius: 5px;
+  }
+  .news-link{
+    text-decoration: none;
+    color: rgb(79, 72, 72);
+    font-weight: 900;
+  }
