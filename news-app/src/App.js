@@ -16,7 +16,7 @@ function App() {
       <div className="cat">
         <ul>
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/education">Education</Link>
@@ -39,7 +39,7 @@ function App() {
         <Routes>
           {/* <Route path='/'><News/></Route>
            */}
-          <Route exact path="/home" element={<News />}></Route>
+          <Route exact path="/" element={<News />}></Route>
           <Route exact path="/education" element={<News />}></Route>
           <Route
             exact

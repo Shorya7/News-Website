@@ -9,6 +9,8 @@ function NewsArticle({ data }) {
       {/* <span className="news-author">{data.author}</span> <br /> */}
       <span className="news-published">{data.publishedAt}</span>
       {/* <span className="news-source">{data.source.name}</span> */}
+      <br></br>
+      <br></br>
       <a className="news-link" href={data.url}>Read more...</a>
       
     </div>

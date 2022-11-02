@@ -50,3 +50,23 @@ footer{
   justify-content: center;
   align-items: center;
 }
+
+@media(max-width:610px){
+  .cat ul{
+    flex-wrap: wrap;
+  }
+  .cat ul li{
+    margin: 5px 20px;
+  }
+}
+@media(max-width:400px){
+  .logo{
+    font-size: 2.4rem;
+  }
+  .cat ul{
+    font-size: 0.9rem;
+  }
+  footer{
+    font-size: 0.8rem;
+  }
+}
